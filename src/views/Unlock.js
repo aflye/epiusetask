@@ -69,10 +69,11 @@ class Unlock extends React.Component {
     return (
       <Container>
         <br />
-        <Jumbotron>
+        {/* <Jumbotron>
           <h1>Unlock door</h1>
-        </Jumbotron>
+        </Jumbotron> */}
         <Breadcrumb>
+        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item href="/doors">Doors</Breadcrumb.Item>
           <Breadcrumb.Item active>Unlock</Breadcrumb.Item>
