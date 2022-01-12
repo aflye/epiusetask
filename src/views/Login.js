@@ -54,7 +54,7 @@ export default class Login extends Component {
       {/* <Jumbotron>
         <h2>Login</h2>
       </Jumbotron> */}
-      <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
+      <center><div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div></center>
       <Card>
         <Card.Header>Enter Login Credentials</Card.Header>
         <Card.Body>
