@@ -13,7 +13,7 @@ JSON server was used for a quick backend prototypying and development. This runs
 2. Download and run install `nodejs` from https://nodejs.org/dist/v16.13.2/node-v16.13.2-x64.msi
 ## Installation
 
-1. Download or clone project
+1. Download or clone project using git clone https://github.com/ryancliffew44/epiusetask.git from Git Bash 
 2. Open terminal or command prompt in the project root directory
 3. Install node libraries using `npm install`
 4. Run the script using `npm run dev`
