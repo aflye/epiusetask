@@ -20,6 +20,7 @@ class Doors extends React.Component {
         {/* <Jumbotron>
           <h1>Manage Doors</h1>
         </Jumbotron> */}
+        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
         <Breadcrumb>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item active>Doors</Breadcrumb.Item>
