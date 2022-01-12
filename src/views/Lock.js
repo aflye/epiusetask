@@ -69,9 +69,10 @@ class Lock extends React.Component {
     return (
       <Container>
         <br />
-        <Jumbotron>
+        {/* <Jumbotron>
           <h1>Lock door</h1>
-        </Jumbotron>
+        </Jumbotron> */}
+        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
         <Breadcrumb>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item href="/doors">Doors</Breadcrumb.Item>
