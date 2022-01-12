@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Card, Button, Accordion, Breadcrumb } from 'react-bootstrap/';
+import { Container, Card, Button, Accordion, Breadcrumb } from 'react-bootstrap/';
 //import cookies from '../cookiestore';
 
 // let tree = constructTree;
