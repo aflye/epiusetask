@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Card, Breadcrumb, Nav } from 'react-bootstrap/';
+import { Container, Card, Breadcrumb, Nav } from 'react-bootstrap/';
 //import { NavLink } from 'react-router-dom';
 //import cookies from '../cookiestore';
 
@@ -17,9 +17,9 @@ class Doors extends React.Component {
     return (
       <Container>
         <br />
-        <Jumbotron>
+        {/* <Jumbotron>
           <h1>Manage Doors</h1>
-        </Jumbotron>
+        </Jumbotron> */}
         <Breadcrumb>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item active>Doors</Breadcrumb.Item>
