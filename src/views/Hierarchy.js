@@ -169,6 +169,7 @@ class Hierarchy extends React.Component {
         {/* <Jumbotron>
           <h1>Security door entry hierarchy</h1>
         </Jumbotron> */}
+        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
         <Breadcrumb>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item active>Hierarchy</Breadcrumb.Item>
