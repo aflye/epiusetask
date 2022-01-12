@@ -16,9 +16,9 @@ class Home extends React.Component {
     return (
       <Container>
         <br />
-        <Jumbotron>
+        {/* <Jumbotron>
           <h1>Welcome, {cookies.get("session")}!</h1>
-        </Jumbotron>
+        </Jumbotron> */}
         <Breadcrumb>
           <Breadcrumb.Item active href="/">Home</Breadcrumb.Item>
         </Breadcrumb>
