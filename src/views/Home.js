@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container, Jumbotron, Card, Nav, Breadcrumb } from 'react-bootstrap/';
-import cookies from '../cookiestore';
+import {Container, Card, Nav, Breadcrumb } from 'react-bootstrap/';
+//import cookies from '../cookiestore';
 
 class Home extends React.Component {
 
