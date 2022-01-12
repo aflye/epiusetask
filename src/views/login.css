@@ -1,0 +1,22 @@
+.login {
+    margin-top: 4%;
+}
+
+.login-form-input {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.login-form-submit {
+    text-align: center;
+}
+
+.login-btn {
+    width: 10%;
+}
+
+.login-text {
+    text-align: center;
+    margin-top: 4%;
+}
