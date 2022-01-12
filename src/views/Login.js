@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, Button, Card, Jumbotron } from 'react-bootstrap';
+import { Container, Form, Button, Card } from 'react-bootstrap';
 import cookies from "../cookiestore";
 
 export default class Login extends Component {
@@ -36,7 +36,7 @@ export default class Login extends Component {
         // console.log('Success:', response);
         // console.log(response.length);
         if (response.length === 0) {
-          alert("Incorrect credentials, please try again");
+          alert("Login failed, please try again");
         }
         else {
           this.state.session = response;
@@ -51,9 +51,10 @@ export default class Login extends Component {
     return (
       <Container>
       <br />
-      <Jumbotron>
-        <h1>Login</h1>
-      </Jumbotron>
+      {/* <Jumbotron>
+        <h2>Login</h2>
+      </Jumbotron> */}
+      <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
       <Card>
         <Card.Header>Enter Login Credentials</Card.Header>
         <Card.Body>
@@ -74,7 +75,7 @@ export default class Login extends Component {
               <Form.Control
                 type="password"
                 required
-                minLength="6"
+                minLength="3"
                 value={this.state.password}
                 onChange={this.handleChange}
               />

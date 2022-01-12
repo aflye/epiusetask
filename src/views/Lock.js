@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Card, Button, InputGroup, FormControl, Form, Breadcrumb } from 'react-bootstrap/';
-import cookies from '../cookiestore';
+//import cookies from '../cookiestore';
 
 class Lock extends React.Component {
 
@@ -79,7 +79,7 @@ class Lock extends React.Component {
         </Breadcrumb>
         <Card className="border-0" bg="light">
           <Card.Body>
-            <h4>Enter the ID of the door you wish to Lock</h4>
+            <h4>Please enter the ID of the door to lock</h4>
             <br/>
             <Form onSubmit={this.handleSubmit}>
               <Form.Group className="mb-0" controlId="id">

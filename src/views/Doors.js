@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Jumbotron, Card, Button, Breadcrumb } from 'react-bootstrap/';
-import cookies from '../cookiestore';
+import { Container, Jumbotron, Card, Breadcrumb, Nav } from 'react-bootstrap/';
+//import { NavLink } from 'react-router-dom';
+//import cookies from '../cookiestore';
 
 class Doors extends React.Component {
 
@@ -25,11 +26,12 @@ class Doors extends React.Component {
         </Breadcrumb>
         <Card className="border-0" bg="light">
           <Card.Body>
-            <h4>What would you like to do?</h4>
-            <br />
-            <Button href="/unlock">Unlock Door</Button>
-            <br /><br />
-            <Button href="/lock">Lock Door</Button>
+            <h4>Manage Doors Menu Options</h4>
+            <Nav className="flex-column">
+              <Nav.Link href="/lock">1. Lock Door</Nav.Link>
+              <Nav.Link href="/unlock">2. Unlock Door</Nav.Link>
+              <Nav.Link href="/home">3. Back</Nav.Link>
+            </Nav>
           </Card.Body>
         </Card>
       </Container>
