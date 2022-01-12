@@ -31,7 +31,7 @@ class Doors extends React.Component {
             <Nav className="flex-column">
               <Nav.Link href="/lock">1. Lock Door</Nav.Link>
               <Nav.Link href="/unlock">2. Unlock Door</Nav.Link>
-              <Nav.Link href="/home">3. Back</Nav.Link>
+              <Nav.Link href="/"> Back </Nav.Link>
             </Nav>
           </Card.Body>
         </Card>
