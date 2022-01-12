@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 node_modules
 
+=======
+# dependencies
+node_modules
+
+# production
+.DS_Store
+
+>>>>>>> 7a2860ec1e65dd8b5ba3808ef6a89677506154b0
