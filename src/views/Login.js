@@ -55,10 +55,10 @@ export default class Login extends Component {
         <h1>Login</h1>
       </Jumbotron>
       <Card>
-        <Card.Header>Please enter login information</Card.Header>
+        <Card.Header>Enter Login Credentials</Card.Header>
         <Card.Body>
           <Form onSubmit={this.handleSubmit}>
-            <Form.Group size="lg" controlId="username">
+            <Form.Group size="sm" controlId="username">
               <Form.Label>Username</Form.Label>
               <Form.Control
                 autoFocus
@@ -69,7 +69,7 @@ export default class Login extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-            <Form.Group size="lg" controlId="password">
+            <Form.Group size="sm" controlId="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
@@ -79,7 +79,7 @@ export default class Login extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-            <Button block size="lg" type="submit" disabled={!this.validateForm()}>
+            <Button block size="sm" type="submit" disabled={!this.validateForm()}>
               Login
             </Button>
           </Form>
