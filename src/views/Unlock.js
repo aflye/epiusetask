@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Card, Button, InputGroup, FormControl, Form, Breadcrumb } from 'react-bootstrap/';
+import { Container, Card, Button, InputGroup, FormControl, Form, Breadcrumb } from 'react-bootstrap/';
 //import cookies from '../cookiestore';
 
 class Unlock extends React.Component {
