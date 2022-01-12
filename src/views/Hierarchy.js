@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Card, Button, Accordion, Breadcrumb } from 'react-bootstrap/';
-import cookies from '../cookiestore';
+//import cookies from '../cookiestore';
 
 // let tree = constructTree;
 
@@ -166,16 +166,16 @@ class Hierarchy extends React.Component {
     return (
       <Container>
         <br />
-        <Jumbotron>
+        {/* <Jumbotron>
           <h1>Security door entry hierarchy</h1>
-        </Jumbotron>
+        </Jumbotron> */}
         <Breadcrumb>
           <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
           <Breadcrumb.Item active>Hierarchy</Breadcrumb.Item>
         </Breadcrumb>
         <Card className="border-0" bg="light">
           <Card.Body>
-            <h4>Click rooms to expand</h4>
+            <h4>Click to expand</h4>
             <br/>
             { this.printTree(this.state.tree) }
           </Card.Body>
