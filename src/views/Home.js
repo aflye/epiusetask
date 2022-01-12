@@ -19,7 +19,7 @@ class Home extends React.Component {
         {/* <Jumbotron>
           <h1>Welcome, {cookies.get("session")}!</h1>
         </Jumbotron> */}
-        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div>
+        <center><div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div></center>
         <Breadcrumb>
           <Breadcrumb.Item active href="/">Home</Breadcrumb.Item>
         </Breadcrumb>
