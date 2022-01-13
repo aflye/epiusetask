@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, Button, Card } from 'react-bootstrap';
+import { Container, Form, Card } from 'react-bootstrap';
 import cookies from "../cookiestore";
 
 export default class Login extends Component {
@@ -80,9 +80,6 @@ export default class Login extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-            {/* <Button block size="sm" type="submit" disabled={!this.validateForm()}>
-              Login
-            </Button> */}
             <center>
             <div className="login-form-submit"><button type="submit" className="btn btn-primary login-btn" disabled={!this.validateForm()}>Login</button></div>
             </center>
