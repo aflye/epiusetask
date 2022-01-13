@@ -3,7 +3,7 @@ SecuriTree is an access control management application that provides a visual tr
 This application will allow authorized security operatives to monitor and manage each physical security and access control unit, at a client’s premises from one central location.
 
 ### Web App
-The web based page that allows only authenticated user to login/logout, view the system hierarchy and manage the state of a door. 
+The web based page that allows only authenticated user to login/logout, view the system hierarchy and manage the state of a door. The Web app's frontend functionality are rendered by Reactjs, HTML and CSS. 
 
 
 ### Server
