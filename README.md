@@ -19,6 +19,7 @@ The json database stores the app's users, areas, doors and access_rules. The ser
 - Nodejs
 
 ### Architectural Diagram
+![securitree architectural diagram](https://github.com/ryancliffew44/epiusetask/blob/main/securitree%20architecture.png)
 
 ## Setup prerequisite
 1. Download and run install `git` from https://git-scm.com/download/win
