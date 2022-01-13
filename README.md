@@ -9,7 +9,7 @@ Bootstrap has been leveraged to provide an responsive UI for the application's f
 JSON server was used for a quick backend prototypying and development. This runs independently of the application, thus, our securitree application is secured. 
 
 ## Setup prerequisite
-1. Download and run install git from https://git-scm.com/download/win
+1. Download and run install `git` from https://git-scm.com/download/win
 2. Download and run install `nodejs` from https://nodejs.org/dist/v16.13.2/node-v16.13.2-x64.msi
 ## Installation
 
