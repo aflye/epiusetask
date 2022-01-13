@@ -13,11 +13,12 @@ The Node.js server handles web app requests,user authentication using the Json W
 The json database stores the app's users, areas, doors and access_rules. The server is able to query the database to retrieve data which is then sent to the web app. 
 
 ### Technologies used
-Bullet list ReactJs
-Bullet list HTML
-Bullet list CSS
-Bullet list Nodejs
+- ReactJs
+- HTML
+- CSS
+- Nodejs
 
+### Architectural Diagram
 
 ## Setup prerequisite
 1. Download and run install `git` from https://git-scm.com/download/win
