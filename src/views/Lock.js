@@ -88,7 +88,6 @@ class Lock extends React.Component {
               <Form.Group className="mb-0" controlId="id">
                 <InputGroup className="">
                   <FormControl
-                    placeholder="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
                     aria-label="Door ID"
                     aria-describedby="basic-addon2"
                     autoFocus
