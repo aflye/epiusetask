@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Form, Card } from 'react-bootstrap';
 import cookies from "../cookiestore";
+import "./login.css";
 
 export default class Login extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ export default class Login extends Component {
         // console.log('Success:', response);
         // console.log(response.length);
         if (response.length === 0) {
-          alert("Login failed, please try again");
+          alert("Invalid Credentials, please try again");
         }
         else {
           this.state.session = response;
@@ -51,11 +52,11 @@ export default class Login extends Component {
     return (
       <Container>
       <br />
-      {/* <Jumbotron>
-        <h2>Login</h2>
-      </Jumbotron> */}
-      <center><div className="login-text"><h3>SECURITREE - Security Dashboard</h3></div></center>
-      <Card>
+      <center>
+        <div className="login-text"><h3>SECURITREE - Security Dashboard</h3>
+        </div>
+      </center>
+      <Card className="login">
         <Card.Header>Enter Login Credentials</Card.Header>
         <Card.Body>
           <Form onSubmit={this.handleSubmit}>
@@ -70,7 +71,7 @@ export default class Login extends Component {
                 onChange={this.handleChange}
               />
             </Form.Group>
-            <Form.Group size="sm" controlId="password">
+            <Form.Group size="sm" controlId="password" className="login-form-input">
               <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
@@ -81,7 +82,7 @@ export default class Login extends Component {
               />
             </Form.Group>
             <center>
-            <div className="login-form-submit"><button type="submit" className="btn btn-primary login-btn" disabled={!this.validateForm()}>Login</button></div>
+            <div className="login-btn"><button type="submit" className="btn btn-primary login-btn" disabled={!this.validateForm()}>Login</button></div>
             </center>
           </Form>
         </Card.Body>
